@@ -73,11 +73,13 @@ span {
     }
     .display {
         width: 100%;
+        overflow-y: hidden;
     }
     img ~ p {
         /* margin-top: 1%; */
+        position: relative;
         color: black;
-        /* font-size: 8px; */
+        font-size: 8px;
     }
     span {
         font-size: 0.1em;
